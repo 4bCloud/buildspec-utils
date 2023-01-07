@@ -8,6 +8,6 @@ Inside your buildspec.yml, use like this:
 ```
 install:
     commands:
-      - curl -fsSL https://github.com/4bCloud/buildspec-utils/buildspec-extras.sh >> extras.sh
+      - curl -fsSL https://raw.githubusercontent.com/4bCloud/buildspec-utils/main/buildspec-extras.sh >> extras.sh
       - . ./extras.sh
 ```
